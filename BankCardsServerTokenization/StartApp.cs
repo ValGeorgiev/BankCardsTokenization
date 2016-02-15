@@ -9,10 +9,11 @@ namespace BankCardsServerTokenization
 {
     public static class StartApp
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
+            //start application
             Application.EnableVisualStyles();
-            Application.Run(new BankCards());
+            Application.Run(new LoginPage());
         }
     }
 }
